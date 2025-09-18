@@ -62,7 +62,7 @@
 <script setup>
 import { ref } from 'vue'
 let formInline = ref({
-user: '',
+  user: '',
 })
 let dialogFormVisible = ref(false)
 let tableForm = ref({})
@@ -112,27 +112,28 @@ const tableData = [
 ]
 
 const handleClick = () => {
-console.log('click')
+  console.log('click')
 }
 
 
 
 function handleAdd() {
-dialogType.value = 'add'
-dialogFormVisible.value = true
-tableForm = {}
+  tableForm = {}
+  dialogType.value = 'add'
+  dialogFormVisible.value = true
+
 }
 
 function handleEdit(row) {
-dialogType.value = 'edit'
-dialogFormVisible.value = true
+  dialogType.value = 'edit'
+  dialogFormVisible.value = true
 
-tableForm = {...row}
+  tableForm = {...row}
 }
 
 
 function handleDelete(row) {
-console.log(row.id)
+  console.log(row.id)
 }
 </script>
 
