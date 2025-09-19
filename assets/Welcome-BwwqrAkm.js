@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as s,d as o,F as t,o as a}from"./index-CxCs3ydT.js";const c={};function l(n,e){return a(),s(t,null,[e[0]||(e[0]=o("div",{class:"welcome"},"welcome",-1)),e[1]||(e[1]=o("div",{class:"weather-wrapper"},null,-1))],64)}const m=r(c,[["render",l],["__scopeId","data-v-ddc8bfff"]]);export{m as default};
